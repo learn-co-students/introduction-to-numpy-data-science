@@ -13,6 +13,25 @@ In this lesson, we are going to introduce the Python library, *NumPy*. Why? Besi
 
 ## Getting Started With NumPy
 
+Just like with any other library, we need to first install the library with a package manager like `pip`. We have already installed this library in the background, so, no need to worry about this step. Next, we need to import the dependency into our code. 
+
+The conventional method to import NumPy is by aliasing it as `np`. Let's check out an example below.
+
+
+```python
+import numpy as np
+print("Woo! we imported NumPy. Here it is:", np)
+```
+
+That was easy! Now we can use any functions from the NumPy library by simply typing `np.FUNCTION_NAME`. For example, if we wanted to create a NumPy array containing the values 1, 2, 3, and 4, we would write `np.arry([1,2,3,4])`. Let's try it out below:
+
+
+```python
+num_py_arr = np.array([1,2,3,4])
+print("Here is a NumPy Array:", num_py_arr)
+print("You know it is a NumPy Array because:", type(num_py_arr))
+```
+
 ## Numpy Arrays and Python Lists: What's the Difference Anyway?
 
 ## How and When to Use a NumPy Array
